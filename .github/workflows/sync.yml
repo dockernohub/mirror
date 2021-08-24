@@ -46,4 +46,4 @@ jobs:
         sudo skopeo login -u ${quay_username} -p ${quay_password} quay.io
         sudo skopeo login -u ${gh_username} -p ${gh_password} ghcr.io
         pwd
-        sudo skopeo sync --src yaml --dest docker --scoped sync.yml quay.io/dockernohub/
+        sudo skopeo sync --src yaml --dest docker sync.yml quay.io/dockernohub/
