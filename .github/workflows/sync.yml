@@ -28,7 +28,7 @@ jobs:
   greet:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    container: alpine:latest
+    #container: alpine:latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -40,9 +40,8 @@ jobs:
         gh_username: ${{ github.actor }}
         gh_password: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        apk add skopeo
+        apt -y update && apt -y install skopeo
         skopeo login -u ${quay_username} -p ${quay_password} quay.io
         skopeo login -u ${gh_username} -p ${gh_password} ghcr.io
-        ls ..
         pwd
         skopeo sync --src yaml --dest docker sync.yml quay.io/dockernohub/
