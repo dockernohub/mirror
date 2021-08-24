@@ -8,6 +8,7 @@ docker.io:
             - "latest"
             - "stable"
             - "alpine"
+        etherpad/etherpad: []
     images-by-tag-regex:
         jitsi/web: ^stable-
         jitsi/prosody: ^stable-
