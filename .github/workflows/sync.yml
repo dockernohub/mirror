@@ -45,4 +45,5 @@ jobs:
         sudo apt-get -y update && sudo apt-get -y install skopeo
         sudo skopeo login -u ${quay_username} -p ${quay_password} quay.io
         sudo skopeo login -u ${gh_username} -p ${gh_password} ghcr.io
+        sudo skopeo sync --src yaml --dest docker sync.yml ghcr.io/dockernohub/
         sudo skopeo sync --src yaml --dest docker sync.yml quay.io/dockernohub/
