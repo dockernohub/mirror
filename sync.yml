@@ -4,5 +4,13 @@ docker.io:
             - "latest"
         alpine:
             - "latest"
+        nginx:
+            - "latest"
     images-by-tag-regex:
         jitsi/web: ^stable-
+        jitsi/prosody: ^stable-
+        jitsi/jicofo: ^stable-
+        jitsi/jvb: ^stable-
+        jitsi/jigasi: ^stable-
+        jitsi/jibri: ^stable-
+
