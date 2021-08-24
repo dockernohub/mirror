@@ -4,5 +4,5 @@ docker.io:
             - "latest"
         alpine:
             - "latest"
-#    images-by-tag-regex:
-#        jitsi/web: ^stable-
+    images-by-tag-regex:
+        jitsi/web: ^stable-
