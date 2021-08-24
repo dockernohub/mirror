@@ -40,7 +40,7 @@ jobs:
         gh_username: ${{ github.actor }}
         gh_password: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        apt -y update && apt -y install skopeo
+        sudo apt-get -y update && sudo apt-get -y install skopeo
         skopeo login -u ${quay_username} -p ${quay_password} quay.io
         skopeo login -u ${gh_username} -p ${gh_password} ghcr.io
         pwd
