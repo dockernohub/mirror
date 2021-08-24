@@ -1,6 +1,7 @@
 docker.io:
     images:
-        busybox: []
+        busybox: 
+            - "latest"
         alpine:
             - "latest"
 #    images-by-tag-regex:
