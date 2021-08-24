@@ -6,6 +6,8 @@ docker.io:
             - "latest"
         nginx:
             - "latest"
+            - "stable"
+            - "alpine"
     images-by-tag-regex:
         jitsi/web: ^stable-
         jitsi/prosody: ^stable-
@@ -13,4 +15,7 @@ docker.io:
         jitsi/jvb: ^stable-
         jitsi/jigasi: ^stable-
         jitsi/jibri: ^stable-
-
+        nginx: ^\d+\.\d+$
+        nginx: ^\d+\.\d+-alpine$
+        nginx: ^\d+\.\d+\.\d+$
+        nginx: ^\d+\.\d+\.\d+-alpine$
