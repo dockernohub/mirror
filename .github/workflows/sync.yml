@@ -43,6 +43,6 @@ jobs:
         apk add skopeo
         skopeo login -u ${quay_username} -p ${quay_password} quay.io
         skopeo login -u ${gh_username} -p ${gh_password} ghcr.io
-        ls
+        ls ..
         pwd
         skopeo sync --src yaml --dest docker sync.yml quay.io/dockernohub/
