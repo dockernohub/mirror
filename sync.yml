@@ -1,0 +1,7 @@
+docker.io:
+    images:
+        busybox: []
+        alpine:
+            - "latest"
+#    images-by-tag-regex:
+#        jitsi/web: ^stable-
