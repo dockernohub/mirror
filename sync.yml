@@ -8,7 +8,25 @@ docker.io:
             - "latest"
             - "stable"
             - "alpine"
+        redis:
+            - "latest"
+            - "alpine"
         etherpad/etherpad: []
+        collabora/code:
+            - "latest"
+        nextcloud:
+            - "stable-fpm-alpine"
+            - "stable-fpm"
+            - "stable-apache"
+            - "stable"
+            - "production-fpm-alpine"
+            - "production-fpm"
+            - "production-apache"
+            - "production"
+            - "latest"
+            - "fpm-alpine"
+            - "fpm"
+            - "apache"
     images-by-tag-regex:
         jitsi/web: ^stable-
         jitsi/prosody: ^stable-
@@ -20,3 +38,5 @@ docker.io:
         nginx: ^\d+\.\d+-alpine$
         nginx: ^\d+\.\d+\.\d+$
         # nginx: ^\d+\.\d+\.\d+-alpine$
+        postgres: ^\d+-alpine
+        redis: ^\d+\.\d+-alpine$
