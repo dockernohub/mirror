@@ -36,7 +36,7 @@ docker.io:
         jitsi/jibri: ^stable-
         nginx: ^\d+\.\d+$
         nginx: ^\d+\.\d+-alpine$
-        nginx: ^\d+\.\d+\.\d+$
+        # nginx: ^\d+\.\d+\.\d+$
         # nginx: ^\d+\.\d+\.\d+-alpine$
         postgres: ^\d+-alpine
         redis: ^\d+\.\d+-alpine$
