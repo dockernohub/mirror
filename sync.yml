@@ -34,7 +34,7 @@ docker.io:
         jitsi/jvb: ^stable-
         jitsi/jigasi: ^stable-
         jitsi/jibri: ^stable-
-        nginx: ^\d+\.\d+$
+        #nginx: ^\d+\.\d+$
         # nginx: ^\d+\.\d+-alpine$
         # nginx: ^\d+\.\d+\.\d+$
         # nginx: ^\d+\.\d+\.\d+-alpine$
