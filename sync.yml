@@ -19,4 +19,4 @@ docker.io:
         nginx: ^\d+\.\d+$
         nginx: ^\d+\.\d+-alpine$
         nginx: ^\d+\.\d+\.\d+$
-        nginx: ^\d+\.\d+\.\d+-alpine$
+        # nginx: ^\d+\.\d+\.\d+-alpine$
