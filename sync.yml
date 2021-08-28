@@ -2,6 +2,12 @@ docker.io:
     images:
         busybox: 
             - "latest"
+            - "stable"
+            - "stable-musl"
+            - "stable-glibc"
+            - "unstable"
+            - "musl"
+            - "glibc"
         alpine:
             - "latest"
         nginx:
@@ -12,6 +18,8 @@ docker.io:
             - "latest"
             - "alpine"
         etherpad/etherpad: []
+        searx/searx:
+            - "latest"
         collabora/code:
             - "latest"
         nextcloud:
@@ -40,3 +48,4 @@ docker.io:
         # nginx: ^\d+\.\d+\.\d+-alpine$
         postgres: ^\d+-alpine
         redis: ^\d+\.\d+-alpine$
+        redis: ^\d+\.\d+$
