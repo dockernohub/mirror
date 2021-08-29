@@ -48,4 +48,5 @@ docker.io:
         # nginx: ^\d+\.\d+\.\d+-alpine$
         postgres: ^\d+-alpine
         redis: ^\d+\.\d+-alpine$
+        mongo: ^\d+\.\d+$
         #redis: ^\d+\.\d+$
