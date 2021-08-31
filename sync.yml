@@ -22,6 +22,8 @@ docker.io:
             - "latest"
         collabora/code:
             - "latest"
+            - "6.4.6.8"
+            - "6.4.6.7"
         nextcloud:
             - "stable-fpm-alpine"
             - "stable-fpm"
