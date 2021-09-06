@@ -18,6 +18,7 @@ docker.io:
             - "latest"
             - "alpine"
         etherpad/etherpad: []
+        sonatype/nexus3: []
         searx/searx:
             - "latest"
         collabora/code:
