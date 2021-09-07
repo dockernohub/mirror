@@ -18,7 +18,6 @@ docker.io:
             - "latest"
             - "alpine"
         etherpad/etherpad: []
-        sonatype/nexus3: []
         searx/searx:
             - "latest"
         collabora/code:
@@ -53,3 +52,4 @@ docker.io:
         redis: ^\d+\.\d+-alpine$
         mongo: ^\d+$
         #redis: ^\d+\.\d+$
+        sonatype/nexus3: ^\d+\.[2-9]\d+\.\d+$
